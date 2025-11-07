@@ -1,0 +1,22 @@
+* {
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header, .menu {
+    display: flex;
+}
+
+.logo, .footer {
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8
+}
