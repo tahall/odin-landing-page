@@ -1,6 +1,7 @@
 * {
-    margin: 20px;
+    margin: 4px 20px;
     font-family: "Roboto", sans-serif;
+    padding: 4px 20px;
 }
 
 .hero, .footer {
@@ -8,15 +9,60 @@
     color: #f9faf8;
 }
 
-.header, .menu {
+.header, .menu, .hero-main, .call-to-action {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo, .footer {
+.header {
+    padding: 0px 40px;
+}
+
+.hero-main-1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-main-2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome {
+    flex: 1 1 50%;
+}
+.image-placeholder {
+    background-color: darkgray;
+    flex: 1 1 50%;
+}
+
+.su-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.logo, .footer, .call-to-action {
     text-align: center;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: white;
+}
+
+.quote-attribution {
+    text-align: right;
 }
