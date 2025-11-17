@@ -1,7 +1,79 @@
 * {
-    margin: 4px 20px;
-    font-family: "Roboto", sans-serif;
-    padding: 4px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+.header, .hero-main, .menu {
+    display: flex;
+}
+
+.header {
+    padding: 2px 2px;
+    margin: 0px 10%;
+}
+
+.hero-main, .information, .call-to-action {
+    margin: 5% 10%;
+}
+
+.information-header {
+    margin: 0%;
+    padding: 3%;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information-body {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.roundrect {
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-caption {
+    width: 150px;
+    text-align: center;
+}
+
+.inspirational-quote {
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    margin: 5% 19%;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-citation {
+    font-size: 18px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero, .footer {
@@ -9,60 +81,60 @@
     color: #f9faf8;
 }
 
-.header, .menu, .hero-main, .call-to-action {
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main-left, .hero-main-right {
+    flex: 1;
+}
+
+.hero-main-right {
+    background-color: darkgray;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.header {
-    padding: 0px 40px;
+.hero-main {
+    justify-content: stretch;
 }
 
-.hero-main-1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
+.logo, .menu {
+    padding: 0px 10px;
 }
 
-.hero-main-2 {
+.logo {
+    font-size: 24px;
+}
+
+.menu, .subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .awesome {
-    flex: 1 1 50%;
-}
-.image-placeholder {
-    background-color: darkgray;
-    flex: 1 1 50%;
-}
-
-.su-button {
-    background-color: #3882f6;
-    color: white;
-    border-radius: 6px;
-    padding: 10px;
-}
-
-.logo, .footer, .call-to-action {
-    text-align: center;
-}
-
-.logo {
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
 }
 
-.quote-box {
-    background-color: #e5e7eb;
-}
-
-.call-to-action {
+.sign-up, .sign-up-2 {
+    color: #f9faf8;
+    border-width: 2px;
     background-color: #3882f6;
-    color: white;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-size: 18px;
 }
 
-.quote-attribution {
-    text-align: right;
+.sign-up-2 {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.footer {
+    text-align: center;
 }
